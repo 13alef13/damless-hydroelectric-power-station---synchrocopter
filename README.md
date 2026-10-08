@@ -21,6 +21,19 @@ The system uses a vertical dual-rotor configuration based on the **Anton Flettne
 ## Modular Installation
 The HPS is designed as a rigid structural frame ("drop-and-go" layout). The assembly is lowered into the riverbed via a mobile crane and secured with shore anchors or retaining piles, requiring zero underwater construction or concrete works.
 
+## Future Applications & Innovations
+
+### 1. Dynamic Folding Blades (EB 13/13 Innovation)
+To radically increase the efficiency of vertical rotors, the system utilizes **actively folding blades equipped with one-way travel limiters**:
+* **Power Phase (Center Stream):** The oncoming water flow unfolds the blade until it hits a rigid structural stop, creating maximum hydraulic resistance and a hydrodynamic lock together with the opposing rotor.
+* **Recovery Phase (Along Riverbanks):** As the blade moves against the current during its return cycle, the oncoming flow automatically folds it. This reduces the parasitic drag of the returning rotor side close to zero, significantly boosting net torque on the drive shaft.
+
+### 2. Dual-Circuit Cooling for Distributed Edge Data Centers
+Modular HPS units are tailored for direct power supply of containerized data centers (10–50 kW) in ultra-remote locations, requiring zero local infrastructure:
+* **Combined Climate Control:** During cold seasons, the servers utilize free air cooling. In summer peaks or ambient heat up to +40°C, the system seamlessly switches to **direct river water liquid cooling**.
+* **Hydrothermal Stability:** The water temperature of small northern rivers rarely tops +25°C even in peak summer. Utilizing river water through isolated heat exchangers guarantees optimal thermal management for hardware year-round.
+* **Heat Recovery (Optional):** Low-grade heat from the data center cooling loop (40–50°C) can be redirected to heat residential buildings, field camps, or greenhouses, achieving complete carbon neutrality.
+
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
@@ -50,6 +63,19 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Модульная установка
 ГЭС спроектирована в виде единой жесткой рамной кассеты (принцип «опустил и забыл»). Моноблок доставляется на место, сбрасывается краном-манипулятором в русло и фиксируется береговыми растяжками или опорными сваями. Никаких водолазных и бетонных работ не требуется.
+
+## Перспективы применения и технологические инновации / Future Applications & Innovations
+
+### 1. Складные лопасти динамического сопротивления (Инновация EB 13/13)
+Для радикального повышения КПД вертикальных роторов применяется система **активно-складных лопастей с односторонним ограничителем хода**:
+* **Рабочая фаза (Центр русла):** Набегающий поток воды раскрывает лопасть до жесткого упора-ограничителя, формируя максимальное гидравлическое сопротивление и гидродинамический «замок» в паре со вторым ротором.
+* **Холостая фаза (Вдоль берегов):** При движении лопасти навстречу течению (возвратный цикл), встречный поток воды автоматически складывает лопасть. Это снижает паразитное лобовое сопротивление возвращающейся стороны ротора почти до нуля, резко увеличивая суммарную крутящую мощность на валу.
+
+### 2. Двухконтурное охлаждение распределенных Edge-ЦОД
+Модульные ГЭС адаптированы под прямое энергоснабжение контейнерных дата-центров (10–50 кВт) в условиях полной автономности (Off-grid), даже при отсутствии инфраструктуры и населенных пунктов:
+* **Комбинированный климат-контроль:** В холодное время года электроника использует бесплатное воздушное охлаждение (Free Cooling). В летний период или при аномальной жаре до +40°C система автоматически переключается на **жидкостное охлаждение проточной речной водой**.
+* **Гидротермальная стабильность:** Температура воды в малых северных реках редко поднимается выше +25°C в самый жаркий период. Использование речной воды через изолированные теплообменники гарантирует идеальный теплоотвод для серверов круглый год.
+* **Утилизация тепла (При наличии потребителей):** Низкопотенциальное тепло из контура охлаждения ЦОД (40–50°C) может быть направлено на обогрев жилых домов, вахтовых поселков или теплиц, обеспечивая полную углеродную нейтральность.
 
 ## Лицензия
 Этот проект распространяется под свободной лицензией MIT — подробности см. в файле LICENSE.
