@@ -34,6 +34,16 @@ Modular HPS units are tailored for direct power supply of containerized data cen
 * **Hydrothermal Stability:** The water temperature of small northern rivers rarely tops +25°C even in peak summer. Utilizing river water through isolated heat exchangers guarantees optimal thermal management for hardware year-round.
 * **Heat Recovery (Optional):** Low-grade heat from the data center cooling loop (40–50°C) can be redirected to heat residential buildings, field camps, or greenhouses, achieving complete carbon neutrality.
 
+### 3. Geometric Optimization and Resistance to Channel Debris
+The blades' ability to fold to one side offers unique operational advantages:
+* **Maximization of Swept Area:** The vertical rotor shafts can be offset close to the shoreline. When idle, the blades fold parallel to the shore, increasing their overall length and utilizing up to 95% of the channel's useful hydrodynamic cross-section.
+* **Passive protection against destructive debris (evasion effect):** When encountering large floating debris (logs, driftwood), the blade does not block the rotor and is not deformed. An oncoming solid object forces the blade to fold toward the idle position as it passes, after which the hydraulic flow instantly returns it to its open position.
+
+### 4. Intelligent data center climate control: Turbo Boost and Night Modes
+The edge data center's heat management system is synchronized with daily and seasonal temperature fluctuations:
+* **Turbo Boost Mode:** Activated during peak summer heat periods (up to +40°C). The automatic system starts the pumps of the flow-through river cooling circuit. A stable water temperature ($\le$ +25°C) ensures emergency cooling of the chips, preventing throttling and increasing computing power.
+* **Night Mode:** Activates at night when the air temperature drops by 10–15°C. The system switches to Free Cooling using outside air, completely shutting off the water pumps. This minimizes parasitic power consumption by the hydroelectric power plant for data center maintenance, freeing up useful power for AI computing. 
+
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
@@ -76,6 +86,17 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 * **Комбинированный климат-контроль:** В холодное время года электроника использует бесплатное воздушное охлаждение (Free Cooling). В летний период или при аномальной жаре до +40°C система автоматически переключается на **жидкостное охлаждение проточной речной водой**.
 * **Гидротермальная стабильность:** Температура воды в малых северных реках редко поднимается выше +25°C в самый жаркий период. Использование речной воды через изолированные теплообменники гарантирует идеальный теплоотвод для серверов круглый год.
 * **Утилизация тепла (При наличии потребителей):** Низкопотенциальное тепло из контура охлаждения ЦОД (40–50°C) может быть направлено на обогрев жилых домов, вахтовых поселков или теплиц, обеспечивая полную углеродную нейтральность.
+
+### 3. Геометрическая оптимизация и устойчивость к русловому мусору
+Свойство лопастей складываться в одну сторону открывает уникальные эксплуатационные преимущества:
+* **Максимизация площади ометания:** Вертикальные валы роторов могут быть смещены вплотную к береговой линии. В холостой фазе лопасти складываются параллельно берегу, что позволяет увеличить их общую длину и задействовать до 95% полезного гидродинамического сечения русла.
+* **Пассивная защита от деструктивного мусора (Эффект уклонения):** При столкновении с крупным плывущим мусором (бревна, топляк) лопасть не блокирует ротор и не деформируется. Встречный твердый предмет принудительно складывает лопасть в сторону холостого хода, пролетая мимо, после чего гидропоток мгновенно возвращает её в рабочее раскрытое состояние.
+
+### 4. Интеллектуальный климат-контроль ЦОД: Режимы «Turbo Boost» и «Night Mode»
+Система управления теплоотводом периферийного ЦОД синхронизирована с суточными и сезонными колебаниями температур:
+* **Режим «Turbo Boost»:** Активируется в периоды пиковой летней жары (до +40°C). Автоматика запускает насосы проточного речного контура охлаждения. Стабильная температура воды ($\le$ +25°C) обеспечивает экстренное охлаждение чипов, предотвращая троттлинг и повышая вычислительную мощность.
+* **Режим «Night Mode»:** Включается в ночное время при падении температуры воздуха на 10–15°C. Система переходит на Free Cooling забортным воздухом, полностью отключая водяные насосы. Это минимизирует паразитное энергопотребление ГЭС на обслуживание ЦОД, высвобождая полезную мощность для ИИ-вычислений.
+
 
 ## Лицензия
 Этот проект распространяется под свободной лицензией MIT — подробности см. в файле LICENSE.
