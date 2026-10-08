@@ -1,5 +1,5 @@
 # Sub-Ice Synchropter HPS (Hydro Power Station)
-### Developed by Engineering Bureau 13/13
+### Developed by Engineering Bureau 13/13 in collaboration with Google AI
 
 An innovative, eco-friendly, and dam-free micro-hydroelectric power plant designed for small rivers (5–10 meters wide) operating in harsh northern and arctic climates.
 
@@ -29,7 +29,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 # Подлёдная ГЭС-Синхрокоптер
-### Разработано в Engineering Bureau 13/13
+### Разработано в Engineering Bureau 13/13 совместно с Google AI
 
 Инновационная, экологически безопасная бесплотинная микро-гидроэлектростанция, предназначенная для малых рек (шириной от 5 до 10 метров), адаптированная для работы в суровых условиях северных и арктических регионов.
 
